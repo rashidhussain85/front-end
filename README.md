@@ -1,5 +1,5 @@
 # front-end
-
+#!/bin/bash
 sudo yum -y install httpd
 cd /var/www/html
 echo "healthy" | sudo tee /var/www/html/healthy.html
