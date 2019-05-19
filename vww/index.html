@@ -9,7 +9,7 @@
          $(document).ready(function() {
 			
             $("#driver").click(function(event){
-               $.getJSON('http://18.191.192.54/app/checkRequest', function(jd) {
+               $.getJSON('http://internal-Shariq-Internal-ELB-807960039.us-east-2.elb.amazonaws.com/app/checkRequest', function(jd) {
                   $('#stage').html('<p> Name: ' + jd.name + '</p>');
                   $('#stage').append('<p> Sex: ' + jd.sex+ '</p>');
                });
