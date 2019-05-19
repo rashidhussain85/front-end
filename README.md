@@ -2,7 +2,7 @@
 #!/bin/bash
 sudo yum -y install httpd
 cd /var/www/html
-echo "healthy" | sudo tee /var/www/html/index.html
+echo "healthy" | sudo tee /var/www/html/healthy.html
 sudo yum -y install git
 cd /home/ec2-user
 git clone https://github.com/sshariqrizvi15/front-end.git
